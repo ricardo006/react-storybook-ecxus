@@ -1,3 +1,5 @@
+import React from 'react'; // Adicione esta linha
+
 import { CircleNotch } from "phosphor-react";
 
 export function Loading() {

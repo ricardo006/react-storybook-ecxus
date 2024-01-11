@@ -1,3 +1,5 @@
+import React from 'react'; // Adicione esta linha
+
 import { ArrowLeft } from "phosphor-react";
 import { FormEvent, useState } from "react";
 import { FeedbackType, feedbackTypes } from "..";

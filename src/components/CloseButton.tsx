@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Popover } from '@headlessui/react'
 import { X } from 'phosphor-react'
 

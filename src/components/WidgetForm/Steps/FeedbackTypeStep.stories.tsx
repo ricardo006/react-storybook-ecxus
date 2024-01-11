@@ -1,3 +1,5 @@
+import React from 'react'; // Adicione esta linha
+
 import { Popover } from '@headlessui/react'
 import { Meta, StoryObj } from '@storybook/react'
 import { FeedbackTypeStep } from './FeedbackTypeStep'

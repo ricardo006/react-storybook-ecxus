@@ -1,3 +1,5 @@
+import React from 'react'; // Adicione esta linha
+
 import { Camera, Trash } from "phosphor-react";
 import html2canvas from 'html2canvas'
 import { useState } from "react";
@@ -39,7 +41,7 @@ export function ScreenshotButton({ onScreenshotTaken, screenshot }: FeedbackType
   }
 
   return (
-    <button 
+    <button
       type="button"
       onClick={handleTakeScreenshot}
       className="p-2 bg-zinc-800 rounded-md border-transparent hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors"
